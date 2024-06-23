@@ -36,7 +36,9 @@
           },
           "configurations": {
             "production": {
+              "optimization": true,
               "budgets": [
+             
                 {
                   "type": "initial",
                   "maximumWarning": "500kb",
